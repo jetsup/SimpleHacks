@@ -1,6 +1,6 @@
 # Simple Hacks and Tricks
 
-This repo contains some of the tricks and hacks I tend to use a lot in my projects and machines configurations. Most of them are tested on Linux.
+This repo contains some of the tricks and hacks I tend to use a lot in my projects and machines configurations. Most of them are tested and based on Linux.
 
 ## Table of content
 
