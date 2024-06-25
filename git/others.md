@@ -1,5 +1,9 @@
 # Git Commands
 
+This document contains some of the more advanced git commands you need to know to work with git. If you are new to git, you can check the [basics](basics.md) document.
+
+## Advanced Commands
+
 ### Branching
 
 To create a new branch in your repository, run the command:
