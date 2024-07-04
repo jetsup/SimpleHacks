@@ -291,9 +291,9 @@ export SDKMAN_DIR="$HOME/.sdkman"
 
 
 # enable ros environment
-#alias enable-ros-humble='. /opt/ros/humble/setup.zsh'
-alias enable-ros-humble='. /opt/ros/humble/setup.zsh; . /usr/share/colcon_argcomplete/hook/colcon-argcomplete.zsh'
-alias enable-ros-iron='. /opt/ros/iron/setup.zsh; . /usr/share/colcon_argcomplete/hook/colcon-argcomplete.zsh'
+# alias enable-ros-humble='. /opt/ros/humble/setup.zsh'
+alias enable-ros-humble='. /opt/ros/humble/setup.zsh && . /usr/share/colcon_argcomplete/hook/colcon-argcomplete.zsh && complete -o nospace -o default -F _python_argcomplete "ros2"'
+alias enable-ros-iron='. /opt/ros/iron/setup.zsh && . /usr/share/colcon_argcomplete/hook/colcon-argcomplete.zsh && complete -o nospace -o default -F _python_argcomplete "ros2"'
 
 
 # esp-idf
